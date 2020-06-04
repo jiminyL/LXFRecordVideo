@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		982DF5E424889D110012BC56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF5E324889D110012BC56 /* AppDelegate.m */; };
+		982DF5E724889D110012BC56 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF5E624889D110012BC56 /* SceneDelegate.m */; };
+		982DF5EA24889D110012BC56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF5E924889D110012BC56 /* ViewController.m */; };
+		982DF5ED24889D110012BC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982DF5EB24889D110012BC56 /* Main.storyboard */; };
+		982DF5EF24889D160012BC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982DF5EE24889D160012BC56 /* Assets.xcassets */; };
+		982DF5F224889D160012BC56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982DF5F024889D160012BC56 /* LaunchScreen.storyboard */; };
+		982DF5F524889D160012BC56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF5F424889D160012BC56 /* main.m */; };
+		982DF62324889D5B0012BC56 /* LXFDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF5FE24889D5B0012BC56 /* LXFDeviceManager.m */; };
+		982DF62424889D5B0012BC56 /* WCLRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF60324889D5B0012BC56 /* WCLRecordEncoder.m */; };
+		982DF62524889D5B0012BC56 /* WCLRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF60624889D5B0012BC56 /* WCLRecordProgressView.m */; };
+		982DF62624889D5B0012BC56 /* WCLRecordEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF60924889D5B0012BC56 /* WCLRecordEngine.m */; };
+		982DF62724889D5B0012BC56 /* LXFRecord_flashOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF60B24889D5B0012BC56 /* LXFRecord_flashOff.png */; };
+		982DF62824889D5B0012BC56 /* LXFRecord_recordbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF60C24889D5B0012BC56 /* LXFRecord_recordbtn@2x.png */; };
+		982DF62924889D5B0012BC56 /* LXFRecord_arrow_left_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF60D24889D5B0012BC56 /* LXFRecord_arrow_left_white@3x.png */; };
+		982DF62A24889D5B0012BC56 /* LXFRecord_changeCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF60E24889D5B0012BC56 /* LXFRecord_changeCamera@2x.png */; };
+		982DF62B24889D5B0012BC56 /* LXFRecord_changeCamera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF60F24889D5B0012BC56 /* LXFRecord_changeCamera@3x.png */; };
+		982DF62C24889D5B0012BC56 /* LXFRecord_arrow_left_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61024889D5B0012BC56 /* LXFRecord_arrow_left_white.png */; };
+		982DF62D24889D5B0012BC56 /* LXFRecord_arrow_left_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61124889D5B0012BC56 /* LXFRecord_arrow_left_white@2x.png */; };
+		982DF62E24889D5B0012BC56 /* LXFRecord_recordbtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61224889D5B0012BC56 /* LXFRecord_recordbtn@3x.png */; };
+		982DF62F24889D5B0012BC56 /* LXFRecord_flashOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61324889D5B0012BC56 /* LXFRecord_flashOn.png */; };
+		982DF63024889D5B0012BC56 /* LXFRecord_recordbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61424889D5B0012BC56 /* LXFRecord_recordbtn.png */; };
+		982DF63124889D5B0012BC56 /* LXFRecord_flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61524889D5B0012BC56 /* LXFRecord_flashOn@3x.png */; };
+		982DF63224889D5B0012BC56 /* LXFRecord_flashOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61624889D5B0012BC56 /* LXFRecord_flashOff@2x.png */; };
+		982DF63324889D5B0012BC56 /* LXFRecord_flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61724889D5B0012BC56 /* LXFRecord_flashOff@3x.png */; };
+		982DF63424889D5B0012BC56 /* LXFRecord_changeCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61824889D5B0012BC56 /* LXFRecord_changeCamera.png */; };
+		982DF63524889D5B0012BC56 /* LXFRecord_flashOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 982DF61924889D5B0012BC56 /* LXFRecord_flashOn@2x.png */; };
+		982DF63624889D5B0012BC56 /* LXFVideoShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF61A24889D5B0012BC56 /* LXFVideoShowViewController.m */; };
+		982DF63724889D5B0012BC56 /* LXFRecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF61F24889D5B0012BC56 /* LXFRecordVideoViewController.m */; };
+		982DF63824889D5B0012BC56 /* LXFRecordVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF62024889D5B0012BC56 /* LXFRecordVideo.m */; };
+		982DF63924889D5B0012BC56 /* LXFMediaImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF62224889D5B0012BC56 /* LXFMediaImage.m */; };
+		982DF63C24889D880012BC56 /* LXFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF63B24889D880012BC56 /* LXFFileManager.m */; };
+		982DF63F24889F9C0012BC56 /* NSDate+SSTooKitAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 982DF63D24889F9C0012BC56 /* NSDate+SSTooKitAddtions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		982DF5DF24889D110012BC56 /* LXFRecordVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXFRecordVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		982DF5E224889D110012BC56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		982DF5E324889D110012BC56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		982DF5E524889D110012BC56 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		982DF5E624889D110012BC56 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		982DF5E824889D110012BC56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		982DF5E924889D110012BC56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		982DF5EC24889D110012BC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		982DF5EE24889D160012BC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		982DF5F124889D160012BC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		982DF5F324889D160012BC56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982DF5F424889D160012BC56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		982DF5FD24889D5B0012BC56 /* LXFRecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFRecordVideoViewController.h; sourceTree = "<group>"; };
+		982DF5FE24889D5B0012BC56 /* LXFDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFDeviceManager.m; sourceTree = "<group>"; };
+		982DF60224889D5B0012BC56 /* WCLRecordEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEncoder.h; sourceTree = "<group>"; };
+		982DF60324889D5B0012BC56 /* WCLRecordEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEncoder.m; sourceTree = "<group>"; };
+		982DF60524889D5B0012BC56 /* WCLRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordProgressView.h; sourceTree = "<group>"; };
+		982DF60624889D5B0012BC56 /* WCLRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordProgressView.m; sourceTree = "<group>"; };
+		982DF60824889D5B0012BC56 /* WCLRecordEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEngine.h; sourceTree = "<group>"; };
+		982DF60924889D5B0012BC56 /* WCLRecordEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEngine.m; sourceTree = "<group>"; };
+		982DF60B24889D5B0012BC56 /* LXFRecord_flashOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LXFRecord_flashOff.png; sourceTree = "<group>"; };
+		982DF60C24889D5B0012BC56 /* LXFRecord_recordbtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_recordbtn@2x.png"; sourceTree = "<group>"; };
+		982DF60D24889D5B0012BC56 /* LXFRecord_arrow_left_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_arrow_left_white@3x.png"; sourceTree = "<group>"; };
+		982DF60E24889D5B0012BC56 /* LXFRecord_changeCamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_changeCamera@2x.png"; sourceTree = "<group>"; };
+		982DF60F24889D5B0012BC56 /* LXFRecord_changeCamera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_changeCamera@3x.png"; sourceTree = "<group>"; };
+		982DF61024889D5B0012BC56 /* LXFRecord_arrow_left_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LXFRecord_arrow_left_white.png; sourceTree = "<group>"; };
+		982DF61124889D5B0012BC56 /* LXFRecord_arrow_left_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_arrow_left_white@2x.png"; sourceTree = "<group>"; };
+		982DF61224889D5B0012BC56 /* LXFRecord_recordbtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_recordbtn@3x.png"; sourceTree = "<group>"; };
+		982DF61324889D5B0012BC56 /* LXFRecord_flashOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LXFRecord_flashOn.png; sourceTree = "<group>"; };
+		982DF61424889D5B0012BC56 /* LXFRecord_recordbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LXFRecord_recordbtn.png; sourceTree = "<group>"; };
+		982DF61524889D5B0012BC56 /* LXFRecord_flashOn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_flashOn@3x.png"; sourceTree = "<group>"; };
+		982DF61624889D5B0012BC56 /* LXFRecord_flashOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_flashOff@2x.png"; sourceTree = "<group>"; };
+		982DF61724889D5B0012BC56 /* LXFRecord_flashOff@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_flashOff@3x.png"; sourceTree = "<group>"; };
+		982DF61824889D5B0012BC56 /* LXFRecord_changeCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LXFRecord_changeCamera.png; sourceTree = "<group>"; };
+		982DF61924889D5B0012BC56 /* LXFRecord_flashOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LXFRecord_flashOn@2x.png"; sourceTree = "<group>"; };
+		982DF61A24889D5B0012BC56 /* LXFVideoShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFVideoShowViewController.m; sourceTree = "<group>"; };
+		982DF61B24889D5B0012BC56 /* LXFRecordVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFRecordVideo.h; sourceTree = "<group>"; };
+		982DF61C24889D5B0012BC56 /* LXFRecord_Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFRecord_Macro.h; sourceTree = "<group>"; };
+		982DF61D24889D5B0012BC56 /* LXFMediaImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFMediaImage.h; sourceTree = "<group>"; };
+		982DF61E24889D5B0012BC56 /* LXFDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFDeviceManager.h; sourceTree = "<group>"; };
+		982DF61F24889D5B0012BC56 /* LXFRecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFRecordVideoViewController.m; sourceTree = "<group>"; };
+		982DF62024889D5B0012BC56 /* LXFRecordVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFRecordVideo.m; sourceTree = "<group>"; };
+		982DF62124889D5B0012BC56 /* LXFVideoShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFVideoShowViewController.h; sourceTree = "<group>"; };
+		982DF62224889D5B0012BC56 /* LXFMediaImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFMediaImage.m; sourceTree = "<group>"; };
+		982DF63A24889D880012BC56 /* LXFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFFileManager.h; sourceTree = "<group>"; };
+		982DF63B24889D880012BC56 /* LXFFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFFileManager.m; sourceTree = "<group>"; };
+		982DF63D24889F9C0012BC56 /* NSDate+SSTooKitAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SSTooKitAddtions.m"; sourceTree = "<group>"; };
+		982DF63E24889F9C0012BC56 /* NSDate+SSTooKitAddtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SSTooKitAddtions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		982DF5DC24889D110012BC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982DF5D624889D110012BC56 = {
+			isa = PBXGroup;
+			children = (
+				982DF5E124889D110012BC56 /* LXFRecordVideo */,
+				982DF5E024889D110012BC56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		982DF5E024889D110012BC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				982DF5DF24889D110012BC56 /* LXFRecordVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		982DF5E124889D110012BC56 /* LXFRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				982DF5FB24889D5B0012BC56 /* Libs */,
+				982DF5E224889D110012BC56 /* AppDelegate.h */,
+				982DF5E324889D110012BC56 /* AppDelegate.m */,
+				982DF5E524889D110012BC56 /* SceneDelegate.h */,
+				982DF5E624889D110012BC56 /* SceneDelegate.m */,
+				982DF5E824889D110012BC56 /* ViewController.h */,
+				982DF5E924889D110012BC56 /* ViewController.m */,
+				982DF5EB24889D110012BC56 /* Main.storyboard */,
+				982DF5EE24889D160012BC56 /* Assets.xcassets */,
+				982DF5F024889D160012BC56 /* LaunchScreen.storyboard */,
+				982DF5F324889D160012BC56 /* Info.plist */,
+				982DF5F424889D160012BC56 /* main.m */,
+			);
+			path = LXFRecordVideo;
+			sourceTree = "<group>";
+		};
+		982DF5FB24889D5B0012BC56 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				982DF63A24889D880012BC56 /* LXFFileManager.h */,
+				982DF63B24889D880012BC56 /* LXFFileManager.m */,
+				982DF63E24889F9C0012BC56 /* NSDate+SSTooKitAddtions.h */,
+				982DF63D24889F9C0012BC56 /* NSDate+SSTooKitAddtions.m */,
+				982DF5FC24889D5B0012BC56 /* LXFRecordVideo */,
+			);
+			path = Libs;
+			sourceTree = SOURCE_ROOT;
+		};
+		982DF5FC24889D5B0012BC56 /* LXFRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				982DF5FD24889D5B0012BC56 /* LXFRecordVideoViewController.h */,
+				982DF5FE24889D5B0012BC56 /* LXFDeviceManager.m */,
+				982DF5FF24889D5B0012BC56 /* ThirdLibs */,
+				982DF60A24889D5B0012BC56 /* Images */,
+				982DF61A24889D5B0012BC56 /* LXFVideoShowViewController.m */,
+				982DF61B24889D5B0012BC56 /* LXFRecordVideo.h */,
+				982DF61C24889D5B0012BC56 /* LXFRecord_Macro.h */,
+				982DF61D24889D5B0012BC56 /* LXFMediaImage.h */,
+				982DF61E24889D5B0012BC56 /* LXFDeviceManager.h */,
+				982DF61F24889D5B0012BC56 /* LXFRecordVideoViewController.m */,
+				982DF62024889D5B0012BC56 /* LXFRecordVideo.m */,
+				982DF62124889D5B0012BC56 /* LXFVideoShowViewController.h */,
+				982DF62224889D5B0012BC56 /* LXFMediaImage.m */,
+			);
+			path = LXFRecordVideo;
+			sourceTree = "<group>";
+		};
+		982DF5FF24889D5B0012BC56 /* ThirdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				982DF60024889D5B0012BC56 /* RecordVideo */,
+			);
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
+		982DF60024889D5B0012BC56 /* RecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				982DF60124889D5B0012BC56 /* WCLRecordEncoder */,
+				982DF60424889D5B0012BC56 /* WCLRecordProgressView */,
+				982DF60724889D5B0012BC56 /* WCLRecordEngine */,
+			);
+			path = RecordVideo;
+			sourceTree = "<group>";
+		};
+		982DF60124889D5B0012BC56 /* WCLRecordEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				982DF60224889D5B0012BC56 /* WCLRecordEncoder.h */,
+				982DF60324889D5B0012BC56 /* WCLRecordEncoder.m */,
+			);
+			path = WCLRecordEncoder;
+			sourceTree = "<group>";
+		};
+		982DF60424889D5B0012BC56 /* WCLRecordProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				982DF60524889D5B0012BC56 /* WCLRecordProgressView.h */,
+				982DF60624889D5B0012BC56 /* WCLRecordProgressView.m */,
+			);
+			path = WCLRecordProgressView;
+			sourceTree = "<group>";
+		};
+		982DF60724889D5B0012BC56 /* WCLRecordEngine */ = {
+			isa = PBXGroup;
+			children = (
+				982DF60824889D5B0012BC56 /* WCLRecordEngine.h */,
+				982DF60924889D5B0012BC56 /* WCLRecordEngine.m */,
+			);
+			path = WCLRecordEngine;
+			sourceTree = "<group>";
+		};
+		982DF60A24889D5B0012BC56 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				982DF60B24889D5B0012BC56 /* LXFRecord_flashOff.png */,
+				982DF60C24889D5B0012BC56 /* LXFRecord_recordbtn@2x.png */,
+				982DF60D24889D5B0012BC56 /* LXFRecord_arrow_left_white@3x.png */,
+				982DF60E24889D5B0012BC56 /* LXFRecord_changeCamera@2x.png */,
+				982DF60F24889D5B0012BC56 /* LXFRecord_changeCamera@3x.png */,
+				982DF61024889D5B0012BC56 /* LXFRecord_arrow_left_white.png */,
+				982DF61124889D5B0012BC56 /* LXFRecord_arrow_left_white@2x.png */,
+				982DF61224889D5B0012BC56 /* LXFRecord_recordbtn@3x.png */,
+				982DF61324889D5B0012BC56 /* LXFRecord_flashOn.png */,
+				982DF61424889D5B0012BC56 /* LXFRecord_recordbtn.png */,
+				982DF61524889D5B0012BC56 /* LXFRecord_flashOn@3x.png */,
+				982DF61624889D5B0012BC56 /* LXFRecord_flashOff@2x.png */,
+				982DF61724889D5B0012BC56 /* LXFRecord_flashOff@3x.png */,
+				982DF61824889D5B0012BC56 /* LXFRecord_changeCamera.png */,
+				982DF61924889D5B0012BC56 /* LXFRecord_flashOn@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		982DF5DE24889D110012BC56 /* LXFRecordVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982DF5F824889D160012BC56 /* Build configuration list for PBXNativeTarget "LXFRecordVideo" */;
+			buildPhases = (
+				982DF5DB24889D110012BC56 /* Sources */,
+				982DF5DC24889D110012BC56 /* Frameworks */,
+				982DF5DD24889D110012BC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXFRecordVideo;
+			productName = LXFRecordVideo;
+			productReference = 982DF5DF24889D110012BC56 /* LXFRecordVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		982DF5D724889D110012BC56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = guanniu;
+				TargetAttributes = {
+					982DF5DE24889D110012BC56 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 982DF5DA24889D110012BC56 /* Build configuration list for PBXProject "LXFRecordVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 982DF5D624889D110012BC56;
+			productRefGroup = 982DF5E024889D110012BC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				982DF5DE24889D110012BC56 /* LXFRecordVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		982DF5DD24889D110012BC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982DF5F224889D160012BC56 /* LaunchScreen.storyboard in Resources */,
+				982DF63424889D5B0012BC56 /* LXFRecord_changeCamera.png in Resources */,
+				982DF62D24889D5B0012BC56 /* LXFRecord_arrow_left_white@2x.png in Resources */,
+				982DF5EF24889D160012BC56 /* Assets.xcassets in Resources */,
+				982DF62B24889D5B0012BC56 /* LXFRecord_changeCamera@3x.png in Resources */,
+				982DF63224889D5B0012BC56 /* LXFRecord_flashOff@2x.png in Resources */,
+				982DF63524889D5B0012BC56 /* LXFRecord_flashOn@2x.png in Resources */,
+				982DF62724889D5B0012BC56 /* LXFRecord_flashOff.png in Resources */,
+				982DF62E24889D5B0012BC56 /* LXFRecord_recordbtn@3x.png in Resources */,
+				982DF5ED24889D110012BC56 /* Main.storyboard in Resources */,
+				982DF63324889D5B0012BC56 /* LXFRecord_flashOff@3x.png in Resources */,
+				982DF62A24889D5B0012BC56 /* LXFRecord_changeCamera@2x.png in Resources */,
+				982DF62924889D5B0012BC56 /* LXFRecord_arrow_left_white@3x.png in Resources */,
+				982DF62824889D5B0012BC56 /* LXFRecord_recordbtn@2x.png in Resources */,
+				982DF63024889D5B0012BC56 /* LXFRecord_recordbtn.png in Resources */,
+				982DF63124889D5B0012BC56 /* LXFRecord_flashOn@3x.png in Resources */,
+				982DF62C24889D5B0012BC56 /* LXFRecord_arrow_left_white.png in Resources */,
+				982DF62F24889D5B0012BC56 /* LXFRecord_flashOn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		982DF5DB24889D110012BC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982DF63F24889F9C0012BC56 /* NSDate+SSTooKitAddtions.m in Sources */,
+				982DF5EA24889D110012BC56 /* ViewController.m in Sources */,
+				982DF62524889D5B0012BC56 /* WCLRecordProgressView.m in Sources */,
+				982DF63624889D5B0012BC56 /* LXFVideoShowViewController.m in Sources */,
+				982DF5E424889D110012BC56 /* AppDelegate.m in Sources */,
+				982DF63C24889D880012BC56 /* LXFFileManager.m in Sources */,
+				982DF62424889D5B0012BC56 /* WCLRecordEncoder.m in Sources */,
+				982DF5F524889D160012BC56 /* main.m in Sources */,
+				982DF5E724889D110012BC56 /* SceneDelegate.m in Sources */,
+				982DF62324889D5B0012BC56 /* LXFDeviceManager.m in Sources */,
+				982DF63724889D5B0012BC56 /* LXFRecordVideoViewController.m in Sources */,
+				982DF63824889D5B0012BC56 /* LXFRecordVideo.m in Sources */,
+				982DF62624889D5B0012BC56 /* WCLRecordEngine.m in Sources */,
+				982DF63924889D5B0012BC56 /* LXFMediaImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		982DF5EB24889D110012BC56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982DF5EC24889D110012BC56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		982DF5F024889D160012BC56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982DF5F124889D160012BC56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		982DF5F624889D160012BC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		982DF5F724889D160012BC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		982DF5F924889D160012BC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9KHP4ZLTCD;
+				INFOPLIST_FILE = LXFRecordVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanniu.LXFRecordVideoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = All_ajc_Development_20200604;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		982DF5FA24889D160012BC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9KHP4ZLTCD;
+				INFOPLIST_FILE = LXFRecordVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanniu.LXFRecordVideoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = All_ajc_Development_20200604;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		982DF5DA24889D110012BC56 /* Build configuration list for PBXProject "LXFRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982DF5F624889D160012BC56 /* Debug */,
+				982DF5F724889D160012BC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982DF5F824889D160012BC56 /* Build configuration list for PBXNativeTarget "LXFRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982DF5F924889D160012BC56 /* Debug */,
+				982DF5FA24889D160012BC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 982DF5D724889D110012BC56 /* Project object */;
+}
